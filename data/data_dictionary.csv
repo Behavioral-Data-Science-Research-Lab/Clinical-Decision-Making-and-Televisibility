@@ -1,0 +1,363 @@
+raw_col_name,col_name,question_text,qualtrics_imoport_id,data_type,recode_values,allow_televisibility,allow_harm,no_allow_televisibility,no_allow_harm
+StartDate,StartDate,Start Date,"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}",datetime,N/A,N/A,N/A,N/A,N/A
+EndDate,EndDate,End Date,"{""ImportId"":""endDate"",""timeZone"":""America/Denver""}",datetime,N/A,N/A,N/A,N/A,N/A
+Status,Status,Response Type,"{""ImportId"":""status""}",str,N/A,N/A,N/A,N/A,N/A
+IPAddress,IPAddress,IP Address,"{""ImportId"":""ipAddress""}",ip_address,N/A,N/A,N/A,N/A,N/A
+Progress,Progress,Progress,"{""ImportId"":""progress""}",int,N/A,N/A,N/A,N/A,N/A
+Duration (in seconds),Duration (in seconds),Duration (in seconds),"{""ImportId"":""duration""}",int,N/A,N/A,N/A,N/A,N/A
+Finished,Finished,Finished,"{""ImportId"":""finished""}",boolean,N/A,N/A,N/A,N/A,N/A
+RecordedDate,RecordedDate,Recorded Date,"{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}",datetime,N/A,N/A,N/A,N/A,N/A
+ResponseId,ResponseId,Response ID,"{""ImportId"":""_recordId""}",str,N/A,N/A,N/A,N/A,N/A
+RecipientLastName,RecipientLastName,Recipient Last Name,"{""ImportId"":""recipientLastName""}",str,N/A,N/A,N/A,N/A,N/A
+RecipientFirstName,RecipientFirstName,Recipient First Name,"{""ImportId"":""recipientFirstName""}",str,N/A,N/A,N/A,N/A,N/A
+RecipientEmail,RecipientEmail,Recipient Email,"{""ImportId"":""recipientEmail""}",str,N/A,N/A,N/A,N/A,N/A
+ExternalReference,ExternalReference,External Data Reference,"{""ImportId"":""externalDataReference""}",,N/A,N/A,N/A,N/A,N/A
+LocationLatitude,LocationLatitude,Location Latitude,"{""ImportId"":""locationLatitude""}",float,N/A,N/A,N/A,N/A,N/A
+LocationLongitude,LocationLongitude,Location Longitude,"{""ImportId"":""locationLongitude""}",float,N/A,N/A,N/A,N/A,N/A
+DistributionChannel,DistributionChannel,Distribution Channel,"{""ImportId"":""distributionChannel""}",str,N/A,N/A,N/A,N/A,N/A
+UserLanguage,UserLanguage,User Language,"{""ImportId"":""userLanguage""}",str,N/A,N/A,N/A,N/A,N/A
+Demographics 1,credential,Which best describes your professional credential? - Selected Choice,"{""ImportId"":""QID1""}",categorical,"{'BCBA-D':1, 'BCBA':2, 'BCaBA':3, 'RBT':4, 'Seeking certification':5, 'Other':6}",N/A,N/A,N/A,N/A
+Demographics 1_6_TEXT,credential_other,Which best describes your professional credential? - Other - Text,"{""ImportId"":""QID1_6_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+Demographics 2,date_certified,Please write the date that you become a certified behavior analyst (if applicable)?,"{""ImportId"":""QID5_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+Demographics 3,years_experience_aba,How many years of clinical experience do you have with ABA?,"{""ImportId"":""QID6_TEXT""}",int,N/A,N/A,N/A,N/A,N/A
+Demographics 4,age,What is your age?,"{""ImportId"":""QID7_TEXT""}",int,N/A,N/A,N/A,N/A,N/A
+Demographics 5,race_identify,Choose one or more races that you consider yourself to be: - Selected Choice,"{""ImportId"":""QID8""}",categorical,"{'White':1, 'Black or African American':2, 'American Indian or Alaska Native':3, 'Asian':4, 'Native Hawaiian or Pacific Islander':5, 'Other':6}",N/A,N/A,N/A,N/A
+Demographics 5_6_TEXT,race_identify_other,Choose one or more races that you consider yourself to be: - Other - Text,"{""ImportId"":""QID8_6_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+Demographics 6,gender,What is your gender? - Selected Choice,"{""ImportId"":""QID9""}",categorical,"{'Male':1, 'Female':2', 'Non-binary':3, 'Transgender':4, 'Intersex':5, 'Other':6, 'Prefer not to say':7}",N/A,N/A,N/A,N/A
+Demographics 6_9_TEXT,gender_other,What is your gender? - Other - Text,"{""ImportId"":""QID9_9_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+Demographics 7,work_setting,What type of setting do you currently work in (check all that apply)? - Selected Choice,"{""ImportId"":""QID10""}",str,"{'Clinic':1, 'Home':2, 'School':3', 'Residential', 4, 'Other':5}",N/A,N/A,N/A,N/A
+Demographics 7_5_TEXT,work_setting_other,What type of setting do you currently work in (check all that apply)? - Other - Text,"{""ImportId"":""QID10_5_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+Demographics 8,client_ages,What are the ages of clients/students for whom you typically provide services (check all that apply)? - Selected Choice,"{""ImportId"":""QID15""}",ordinal,"{'05-':1, '6-10':2, '11-20':3, '21+':4, 'Other':5}",N/A,N/A,N/A,N/A
+Demographics 8_5_TEXT,client_ages_other,What are the ages of clients/students for whom you typically provide services (check all that apply)? - Other - Text,"{""ImportId"":""QID15_5_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+Demographics 9,populations_work,What populations do you typically work with (check all that apply)? - Selected Choice,"{""ImportId"":""QID16""}",categorical,"{'Autism Spectrum Disorder':1, 'Disabilities other than Autism Spectrum Disorder':2, 'Other (please separate populations with a semi-colon (e.g., athletes; substance use disorders; etc.)':3}",N/A,N/A,N/A,N/A
+Demographics 9_3_TEXT,populations_work_other,"What populations do you typically work with (check all that apply)? - Other (please separate populations with a semi-colon (e.g., athletes; substance use disorders, etc.) - Text","{""ImportId"":""QID16_3_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+LT-A1,low_low_low_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID18""}",boolean,"{'Yes':1, 'No':2}",low,low,low,low
+LT-A2,low_low_med_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID19""}",boolean,"{'Yes':1, 'No':2}",low,low,med,low
+LT-A3,low_low_high_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID20""}",boolean,"{'Yes':1, 'No':2}",low,low,high,low
+LT-A4,low_low_low_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID21""}",boolean,"{'Yes':1, 'No':2}",low,low,low,med
+LT-A5,low_low_med_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID22""}",boolean,"{'Yes':1, 'No':2}",low,low,med,med
+LT-A6,low_low_high_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID23""}",boolean,"{'Yes':1, 'No':2}",low,low,high,med
+LT-A7,low_low_low_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID24""}",boolean,"{'Yes':1, 'No':2}",low,low,low,high
+LT-A8,low_low_med_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID25""}",boolean,"{'Yes':1, 'No':2}",low,low,med,high
+LT-A9,low_low_high_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID26""}",boolean,"{'Yes':1, 'No':2}",low,low,high,high
+LT-A10,low_med_low_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID27""}",boolean,"{'Yes':1, 'No':2}",low,med,low,low
+LT-A11,low_med_med_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID28""}",boolean,"{'Yes':1, 'No':2}",low,med,med,low
+LT-A12,low_med_high_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID29""}",boolean,"{'Yes':1, 'No':2}",low,med,high,low
+LT-A13,low_med_low_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID30""}",boolean,"{'Yes':1, 'No':2}",low,med,low,med
+LT-A14,low_med_med_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID31""}",boolean,"{'Yes':1, 'No':2}",low,med,med,med
+LT-A15,low_med_high_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID32""}",boolean,"{'Yes':1, 'No':2}",low,med,high,med
+LT-A16,low_med_low_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID33""}",boolean,"{'Yes':1, 'No':2}",low,med,low,high
+LT-A17,low_med_med_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID34""}",boolean,"{'Yes':1, 'No':2}",low,med,med,high
+LT-A18,low_med_high_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID35""}",boolean,"{'Yes':1, 'No':2}",low,med,high,high
+LT-A19,low_high_low_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID36""}",boolean,"{'Yes':1, 'No':2}",low,high,low,low
+LT-A20,low_high_med_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID37""}",boolean,"{'Yes':1, 'No':2}",low,high,med,low
+LT-A21,low_high_high_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID38""}",boolean,"{'Yes':1, 'No':2}",low,high,high,low
+LT-A22,low_high_low_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID39""}",boolean,"{'Yes':1, 'No':2}",low,high,low,med
+LT-A23,low_high_med_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID40""}",boolean,"{'Yes':1, 'No':2}",low,high,med,med
+LT-A24,low_high_high_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID41""}",boolean,"{'Yes':1, 'No':2}",low,high,high,med
+LT-A25,low_high_low_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID42""}",boolean,"{'Yes':1, 'No':2}",low,high,low,high
+LT-A26,low_high_med_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID43""}",boolean,"{'Yes':1, 'No':2}",low,high,med,high
+LT-A27,low_high_high_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID44""}",boolean,"{'Yes':1, 'No':2}",low,high,high,high
+MT-A1,low_low_low_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID46""}",boolean,"{'Yes':1, 'No':2}",low,low,low,low
+MT-A2,med_low_med_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID47""}",boolean,"{'Yes':1, 'No':2}",med,low,med,low
+MT-A3,med_low_high_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID48""}",boolean,"{'Yes':1, 'No':2}",med,low,high,low
+MT-A4,med_low_low_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID49""}",boolean,"{'Yes':1, 'No':2}",med,low,low,med
+MT-A5,med_low_med_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID50""}",boolean,"{'Yes':1, 'No':2}",med,low,med,med
+MT-A6,med_low_high_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID51""}",boolean,"{'Yes':1, 'No':2}",med,low,high,med
+MT-A7,med_low_low_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID52""}",boolean,"{'Yes':1, 'No':2}",med,low,low,high
+MT-A8,med_low_med_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID53""}",boolean,"{'Yes':1, 'No':2}",med,low,med,high
+MT-A9,med_low_high_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID54""}",boolean,"{'Yes':1, 'No':2}",med,low,high,high
+MT-A10,med_med_low_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID55""}",boolean,"{'Yes':1, 'No':2}",med,med,low,low
+MT-A11,med_med_med_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID56""}",boolean,"{'Yes':1, 'No':2}",med,med,med,low
+MT-A12,med_med_high_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID57""}",boolean,"{'Yes':1, 'No':2}",med,med,high,low
+MT-A13,med_med_low_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID58""}",boolean,"{'Yes':1, 'No':2}",med,med,low,med
+MT-A14,med_med_med_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID59""}",boolean,"{'Yes':1, 'No':2}",med,med,med,med
+MT-A15,med_med_high_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID60""}",boolean,"{'Yes':1, 'No':2}",med,med,high,med
+MT-A16,med_med_low_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID61""}",boolean,"{'Yes':1, 'No':2}",med,med,low,high
+MT-A17,med_med_med_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID62""}",boolean,"{'Yes':1, 'No':2}",med,med,med,high
+MT-A18,med_med_high_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID63""}",boolean,"{'Yes':1, 'No':2}",med,med,high,high
+MT-A19,med_high_low_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID64""}",boolean,"{'Yes':1, 'No':2}",med,high,low,low
+MT-A20,med_high_med_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID65""}",boolean,"{'Yes':1, 'No':2}",med,high,med,low
+MT-A21,med_high_high_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID66""}",boolean,"{'Yes':1, 'No':2}",med,high,high,low
+MT-A22,med_high_low_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID67""}",boolean,"{'Yes':1, 'No':2}",med,high,low,med
+MT-A23,med_high_med_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID68""}",boolean,"{'Yes':1, 'No':2}",med,high,med,med
+MT-A24,med_high_high_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID69""}",boolean,"{'Yes':1, 'No':2}",med,high,high,med
+MT-A25,med_high_low_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID70""}",boolean,"{'Yes':1, 'No':2}",med,high,low,high
+MT-A26,med_high_med_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID71""}",boolean,"{'Yes':1, 'No':2}",med,high,med,high
+MT-A27,med_high_high_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID72""}",boolean,"{'Yes':1, 'No':2}",med,high,high,high
+HT-A1,high_low_low_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID73""}",boolean,"{'Yes':1, 'No':2}",high,low,low,low
+HT-A2,high_low_med_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID74""}",boolean,"{'Yes':1, 'No':2}",high,low,med,low
+HT-A3,high_low_high_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID75""}",boolean,"{'Yes':1, 'No':2}",high,low,high,low
+HT-A4,high_low_low_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID76""}",boolean,"{'Yes':1, 'No':2}",high,low,low,med
+HT-A5,high_low_med_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID77""}",boolean,"{'Yes':1, 'No':2}",high,low,med,med
+HT-A6,high_low_high_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID78""}",boolean,"{'Yes':1, 'No':2}",high,low,high,med
+HT-A7,high_low_low_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID79""}",boolean,"{'Yes':1, 'No':2}",high,low,low,high
+HT-A8,high_low_med_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID80""}",boolean,"{'Yes':1, 'No':2}",high,low,med,high
+HT-A9,high_low_high_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID81""}",boolean,"{'Yes':1, 'No':2}",high,low,high,high
+HT-A10,high_med_low_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID82""}",boolean,"{'Yes':1, 'No':2}",high,med,low,low
+HT-A11,high_med_med_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID83""}",boolean,"{'Yes':1, 'No':2}",high,med,med,low
+HT-A12,high_med_high_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID84""}",boolean,"{'Yes':1, 'No':2}",high,med,high,low
+HT-A13,high_med_low_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID85""}",boolean,"{'Yes':1, 'No':2}",high,med,low,med
+HT-A14,high_med_med_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID86""}",boolean,"{'Yes':1, 'No':2}",high,med,med,med
+HT-A15,high_med_high_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID87""}",boolean,"{'Yes':1, 'No':2}",high,med,high,med
+HT-A16,high_med_low_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID88""}",boolean,"{'Yes':1, 'No':2}",high,med,low,high
+HT-A17,high_med_med_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID89""}",boolean,"{'Yes':1, 'No':2}",high,med,med,high
+HT-A18,high_med_high_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID90""}",boolean,"{'Yes':1, 'No':2}",high,med,high,high
+HT-A19,high_high_low_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID91""}",boolean,"{'Yes':1, 'No':2}",high,high,low,low
+HT-A20,high_high_med_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID92""}",boolean,"{'Yes':1, 'No':2}",high,high,med,low
+HT-A21,high_high_high_low,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a low probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID93""}",boolean,"{'Yes':1, 'No':2}",high,high,high,low
+HT-A22,high_high_low_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID94""}",boolean,"{'Yes':1, 'No':2}",high,high,low,med
+HT-A23,high_high_med_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID95""}",boolean,"{'Yes':1, 'No':2}",high,high,med,med
+HT-A24,high_high_high_med,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a medium probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID96""}",boolean,"{'Yes':1, 'No':2}",high,high,high,med
+HT-A25,high_high_low_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a low probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID97""}",boolean,"{'Yes':1, 'No':2}",high,high,low,high
+HT-A26,high_high_med_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a medium probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID98""}",boolean,"{'Yes':1, 'No':2}",high,high,med,high
+HT-A27,high_high_high_high,"A client would like to eat a large amount of unhealthy food for a meal. Consider the following: 
+Allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Not allowing this client to eat the food has a high probability of being televisible and a high probability of causing short-term harm to the client. 
+Do you allow the client to eat the food?","{""ImportId"":""QID99""}",boolean,"{'Yes':1, 'No':2}",high,high,high,high
+F1,strategy_used,Did you use any particular strategy when making the previous decisions?,"{""ImportId"":""QID112_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+F2,experience_televisibility,"What is your experience with the term ""televisibility""?","{""ImportId"":""QID100_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+F3,experience_clients_harm,What is your experience with allowing clients to engage in potentially harmful behavior if it aligns with their preferences in some way?,"{""ImportId"":""QID101_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+F4,feedback,Do you have any other feedback for the researchers?,"{""ImportId"":""QID113""}",str,N/A,N/A,N/A,N/A,N/A
+F6,name,Name:,"{""ImportId"":""QID105_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
+F7,email,Email address:,"{""ImportId"":""QID106_TEXT""}",str,N/A,N/A,N/A,N/A,N/A
